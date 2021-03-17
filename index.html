@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UX/UI designer</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header class="nav">
             <ul>
                 <li><a href="#main">Home</a></li>
-                <li><a href="#about-me">About me</a></li>
+                <li><a href="#about">About me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contacts">Contacts</a></li>
@@ -23,24 +24,27 @@
         </div>
         <div class="menu">
             <ul>
-                <li><a href="#main">Home</a></li>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a class="menu-text" href="#main">Home</a></li>
+                <li><a class="menu-text" href="#about">About me</a></li>
+                <li><a class="menu-text" href="#skills">Skills</a></li>
+                <li><a class="menu-text" href="#portfolio">Portfolio</a></li>
+                <li><a class="menu-text" href="#contacts">Contacts</a></li>
             </ul>
         </div>        
         <section class="main" id='main'>
             <div class="main__row">
-                <div class="column column__name">Denis </br> Novik</div>
-                <div class="column column__text">UX | UI designer </br> 24 years old, Minsk</div>
-                <div class="column column__lang"> <a>RU</a>  | <a>ENG</a></div>
+                <div class="column">
+                    <p class="column__name">Denis </br> Novik</p>
+                    <p class="column__text">UX | UI designer </br> 24 years old, Minsk</p> 
+                </div>                             
+                <div class="column__lang"> <a>RU</a>  | <a>ENG</a></div>
             </div>          
             <div class="main__img">
-                <img src="img/myphoto.png" alt="myphoto" />
+                <img class="big_img" src="img/myphoto.png" alt="myphoto" />
+                <img class="small_img"src="img/myPhotoForSmallScreen.jpg" alt="myphoto" />
             </div>
         </section>
-        <section class="about-me" id='about-me'>
+        <section class="about" id='about'>
             <h1>About me</h1>
             <p>Hi, I'm Denis – UX/UI designer from Minsk. </br> 
                 I'm interested in design and everything connected with it. </p>
@@ -59,48 +63,48 @@
                     <div class="item-img"> <img src="img/PS.jpg" alt="Photoshop"> </div>
                     <div class="item-text">Adobe </br> Photoshop</div>
                     <div class="item-stars-row">
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarGrey.svg" alt='star'/>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
                     </div>
                 </div>
                 <div class="skills-row__item">
                     <div class="item-img"> <img src="img/Ai.jpg" alt="Illustrator"> </div>
                     <div class="item-text">Adobe </br> Illustrator</div>
                     <div class="item-stars-row">
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarGrey.svg" alt='star'/>
-                        <img src="img/StarGrey.svg" alt='star'/>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
                     </div>
                 </div>
                 <div class="skills-row__item">
                     <div class="item-img"> <img src="img/Ae.png" alt="Effects"> </div>
                     <div class="item-text">Adobe </br> After Effects</div>
                     <div class="item-stars-row">
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarGrey.svg" alt='star'/>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
                     </div>
                 </div>
                 <div class="skills-row__item">
                     <div class="item-img"> <img src="img/Figma.jpg" alt="Figma"> </div>
                     <div class="item-text">Figma</div>
                     <div class="item-stars-row">
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarBlack.svg" alt='star'/>
-                        <img src="img/StarGrey.svg" alt='star'/>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
                     </div>
                 </div>
             </div>
@@ -109,30 +113,33 @@
            <h1>Portfolio</h1> 
            <div class="portfolio__block">
                <img src="img\onlineFashionStore.jpg" alt="onlineFashionStore">
-               <p class="portfolio-block__text">Online fashion store - Homepage</p>
+               <a class="portfolio-block__text" href="#" ><p>Online fashion store - Homepage</p></a>
            </div>
            <div class="portfolio__block">
-            <img src="img\reebok_web.jpg" alt="Reebok">
-            <p class="portfolio-block__text">Reebok Store - Concept</p>
-        </div>
-        <div class="portfolio__block">
-            <img src="img\braun.jpg" alt="Braun">
-            <p class="portfolio-block__text last">Braun Landing Page - Concept</p>
-        </div>
+                <img src="img\reebok_web.jpg" alt="Reebok">
+                <a href="#" class="portfolio-block__text"><p>Reebok Store - Concept</p></a>
+            </div>
+             <div class="portfolio__block">
+                <img src="img\braun.jpg" alt="Braun">
+                <a href="#" class="portfolio-block__text last"><p>Braun Landing Page - Concept</p></a>
+            </div>
         </section>
         <footer class="contacts" id='contacts'>
             <h1>Contacts</h1>
             <p>Want to know more or just chat? </br> You are welcome!</p>
-            <button>Send message</button>
+            <button  type = "button">Send message</button>
+            <p class="footer-last-text">Like me on</p>
             <div class="contacts__icons">
-                <a><img src="img\LinkedInIcon.svg" alt="LinkedInIcon"></a>
-                <a><img src="img\InstaIcon.svg" alt="InstaIcon"></a>
-                <a><img src="img\behanceIcon.svg" alt="behanceIcon"></a>
-                <a><img src="img\DribbleIcon.svg" alt="DribbleIcon"></a>
-            </div>
-            <p class="footer-last-text">Like me on </br> LinkedIn, Instagram, Behance, Dribble</p>
+                <a><img src="img\LinkedInIcon.svg" alt="LinkedIn"></a>
+                <a><img src="img\InstaIcon.svg" alt="Instagram"></a>
+                <a><img src="img\behanceIcon.svg" alt="Behance"></a>
+                <a><img src="img\DribbleIcon.svg" alt="Dribble"></a>
+            </div>            
         </footer>
     </div>
+    <script defer src="node_modules\@fortawesome\fontawesome-free\js\regular.js"></script>
+    <script defer src="node_modules\@fortawesome\fontawesome-free\js\solid.js"></script>
+    <script defer src="node_modules\@fortawesome\fontawesome-free\js\fontawesome.js"></script>
     <script src="/js/script.js"></script>    
 </body>
 </html> 

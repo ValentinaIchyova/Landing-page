@@ -142,25 +142,26 @@ $wrap-xl: 910px;
 	p {
 		@extend %text-style;
 		margin: 69px 0px 0px;
+	}	
+}
+.skills-row {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 84px;
+	margin-left: auto;
+	
+}
+.skills-row__item {
+	.item-img {
+		align-items: center;
 	}
-	.skills-row {
-		display: flex;
-    	justify-content: space-between;
-		margin-top: 84px;
-		margin-left: auto;
-		.skills-row__item {
-			.item-img {
-				align-items: center;
-			}
-			.item-text{
-				font-family: $font-bold;
-				font-size: 14px;
-				text-align: center;
-				color: $secondary-color;
-				margin-top: 24px;
-				margin-bottom: 40px;
-			}
-		}
+	.item-text{
+		font-family: $font-bold;
+		font-size: 14px;
+		text-align: center;
+		color: $secondary-color;
+		margin-top: 24px;
+		margin-bottom: 40px;
 	}
 }
 
@@ -314,6 +315,17 @@ $wrap-xl: 910px;
 	.burger {
 		display: block;
 	}
+	// .menu-lang{
+	// 		font-family: $font-bold;
+	// 		font-size: 34px;
+	// 		color:$secondary-color;
+	// 		transform: rotate(-90deg);
+	// 		text-align: left;
+	// 		margin-top: auto;
+	// 		a:active {
+	// 			color:$primary-color;
+	// 		}
+	// }
 	.main {
 		max-width: $wrap-xs;
 		.main__row {
@@ -400,7 +412,7 @@ $wrap-xl: 910px;
 	
     header {
 		display: none;
-	}
+	}	
 	.main {
 		max-width: $wrap-s;
 		.main__row {
@@ -538,8 +550,8 @@ $wrap-xl: 910px;
 	.skills {
 		padding-bottom: 18px;
 		.skills-row {
-			display: block;
-			justify-content: space-between;
+			display: flex !important;
+			justify-content: space-evenly;
 			.item-stars-row {
 				margin-bottom: 81px;
 			}
@@ -568,17 +580,17 @@ $wrap-xl: 910px;
 			margin: 27px 0px 40px;
 		}
 		button {			
-			width: 0.8*$wrap-m;
+			width: 0.6*$wrap-m;
 			margin-bottom: 48px;	
 		}
 		.contacts__icons{
-			max-width: $wrap-m;
+			max-width: 0.6*$wrap-m;
 			display: flex;
 			justify-content: space-evenly;
 		}
 		.footer-last-text{
 			font-size: 18px;
-			margin-bottom: 25px;
+			margin-bottom: 45px;
 		}
 	}	
 	
@@ -640,7 +652,7 @@ $wrap-xl: 910px;
 	.skills {
 		padding-bottom: 88px;
 		.skills-row {
-			display: flex;
+			display: flex !important;
 			justify-content: space-evenly;
 		}
 	}

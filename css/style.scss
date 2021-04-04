@@ -180,7 +180,17 @@ $wrap-xl: 910px;
 		.portfolio-block__text p {
 			@extend %text-style;
 			margin-top: 45px;
-			margin-bottom: 99px;			
+			margin-bottom: 99px;
+			color: black;
+		}	
+		// .portfolio-block__text :visited {
+		// 	color: grey;
+		// }
+		a:-webkit-any-link {
+			text-decoration: none;
+		}
+		.portfolio-block__text :hover {
+			opacity: 0.6;
 			text-decoration: underline;
 		}
 		.last p{
